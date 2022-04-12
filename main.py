@@ -200,22 +200,176 @@ print(lat9, lon9, sep=",") #Prints a coordinate pair, sep adds the comma
 
 
 R = 6378.1 #Radius of the Earth
-brng9 = 3.6250489 #Bearing is 207.7 degrees converted to radians.
-d9 = 2.119 #Distance in km, this is the long leg to bottom semi circle
+brng10 = 3.0124383 #Bearing is 172.6 degrees converted to radians.
+d10 = .2092 #Distance in km
 
 
-lat8 = math.radians(lat8) #Current lat point converted to radians
-lon8 = math.radians(lon8) #Current long point converted to radians
+lat9 = math.radians(lat9) #Current lat point converted to radians
+lon9 = math.radians(lon9) #Current long point converted to radians
 
-lat9 = math.asin( math.sin(lat8)*math.cos(d9/R) +
-     math.cos(lat8)*math.sin(d9/R)*math.cos(brng9))
+lat10 = math.asin( math.sin(lat9)*math.cos(d10/R) +
+     math.cos(lat9)*math.sin(d10/R)*math.cos(brng10))
 
-lon9 = lon8 + math.atan2(math.sin(brng9)*math.sin(d9/R)*math.cos(lat8),
-             math.cos(d9/R)-math.sin(lat8)*math.sin(lat8))
+lon10 = lon9 + math.atan2(math.sin(brng10)*math.sin(d10/R)*math.cos(lat9),
+             math.cos(d10/R)-math.sin(lat9)*math.sin(lat9))
 
-lat9 = math.degrees(lat9)
-lon9 = math.degrees(lon9)
+lat10 = math.degrees(lat10)
+lon10 = math.degrees(lon10)
 
-#print(lat9)
-#print(lon9)
-print(lat9, lon9, sep=",") #Prints a coordinate pair, sep adds the comma
+#print(lat10)
+#print(lon10)
+print(lat10, lon10, sep=",") #Prints a coordinate pair, sep adds the comma
+
+
+R = 6378.1 #Radius of the Earth
+brng11 = 2.6092672 #Bearing is 149.5 degrees converted to radians.
+d11 = .2092 #Distance in km
+
+
+lat10 = math.radians(lat10) #Current lat point converted to radians
+lon10 = math.radians(lon10) #Current long point converted to radians
+
+lat11 = math.asin( math.sin(lat10)*math.cos(d11/R) +
+     math.cos(lat10)*math.sin(d11/R)*math.cos(brng11))
+
+lon11 = lon10 + math.atan2(math.sin(brng11)*math.sin(d11/R)*math.cos(lat10),
+             math.cos(d11/R)-math.sin(lat10)*math.sin(lat10))
+
+lat11 = math.degrees(lat11)
+lon11 = math.degrees(lon11)
+
+#print(lat11)
+#print(lon11)
+print(lat11, lon11, sep=",") #Prints a coordinate pair, sep adds the comma
+
+
+R = 6378.1 #Radius of the Earth
+brng12 = 2.1834069 #Bearing is 125.1 degrees converted to radians.
+d12 = .2092 #Distance in km
+
+
+lat11 = math.radians(lat11) #Current lat point converted to radians
+lon11 = math.radians(lon11) #Current long point converted to radians
+
+lat12 = math.asin( math.sin(lat11)*math.cos(d12/R) +
+     math.cos(lat11)*math.sin(d12/R)*math.cos(brng12))
+
+lon12 = lon11 + math.atan2(math.sin(brng12)*math.sin(d12/R)*math.cos(lat11),
+             math.cos(d12/R)-math.sin(lat11)*math.sin(lat11))
+
+lat12 = math.degrees(lat12)
+lon12 = math.degrees(lon12)
+
+#print(lat12)
+#print(lon12)
+print(lat12, lon12, sep=",") #Prints a coordinate pair, sep adds the comma
+
+
+R = 6378.1 #Radius of the Earth
+brng13 = 1.7558012 #Bearing is 100.6 degrees converted to radians.
+d13 = .2092 #Distance in km
+
+
+lat12 = math.radians(lat12) #Current lat point converted to radians
+lon12 = math.radians(lon12) #Current long point converted to radians
+
+lat13 = math.asin( math.sin(lat12)*math.cos(d13/R) +
+     math.cos(lat12)*math.sin(d13/R)*math.cos(brng13))
+
+lon13 = lon12 + math.atan2(math.sin(brng13)*math.sin(d13/R)*math.cos(lat12),
+             math.cos(d13/R)-math.sin(lat12)*math.sin(lat12))
+
+lat13 = math.degrees(lat13)
+lon13 = math.degrees(lon13)
+
+#print(lat13)
+#print(lon13)
+print(lat13, lon13, sep=",") #Prints a coordinate pair, sep adds the comma
+
+
+R = 6378.1 #Radius of the Earth
+brng14 = 1.34914 #Bearing is 77.3 degrees converted to radians.
+d14 = .2092 #Distance in km
+
+
+lat13 = math.radians(lat13) #Current lat point converted to radians
+lon13 = math.radians(lon13) #Current long point converted to radians
+
+lat14 = math.asin( math.sin(lat13)*math.cos(d14/R) +
+     math.cos(lat13)*math.sin(d14/R)*math.cos(brng14))
+
+lon14 = lon13 + math.atan2(math.sin(brng14)*math.sin(d14/R)*math.cos(lat13),
+             math.cos(d14/R)-math.sin(lat13)*math.sin(lat13))
+
+lat14 = math.degrees(lat14)
+lon14 = math.degrees(lon14)
+
+#print(lat14)
+#print(lon14)
+print(lat14, lon14, sep=",") #Prints a coordinate pair, sep adds the comma
+
+
+R = 6378.1 #Radius of the Earth
+brng15 = 0.9180432 #Bearing is 52.6 degrees converted to radians.
+d15 = .2092 #Distance in km
+
+
+lat14 = math.radians(lat14) #Current lat point converted to radians
+lon14 = math.radians(lon14) #Current long point converted to radians
+
+lat15 = math.asin( math.sin(lat14)*math.cos(d15/R) +
+     math.cos(lat14)*math.sin(d15/R)*math.cos(brng15))
+
+lon15 = lon14 + math.atan2(math.sin(brng15)*math.sin(d15/R)*math.cos(lat14),
+             math.cos(d15/R)-math.sin(lat14)*math.sin(lat14))
+
+lat15 = math.degrees(lat15)
+lon15 = math.degrees(lon15)
+
+#print(lat15)
+#print(lon15)
+print(lat15, lon15, sep=",") #Prints a coordinate pair, sep adds the comma
+
+
+R = 6378.1 #Radius of the Earth
+brng16 = 0.5026548 #Bearing is 28.8 degrees converted to radians.
+d16 = .2092 #Distance in km
+
+
+lat15 = math.radians(lat15) #Current lat point converted to radians
+lon15 = math.radians(lon15) #Current long point converted to radians
+
+lat16 = math.asin( math.sin(lat15)*math.cos(d16/R) +
+     math.cos(lat15)*math.sin(d16/R)*math.cos(brng16))
+
+lon16 = lon15 + math.atan2(math.sin(brng16)*math.sin(d16/R)*math.cos(lat15),
+             math.cos(d16/R)-math.sin(lat15)*math.sin(lat15))
+
+lat16 = math.degrees(lat16)
+lon16 = math.degrees(lon16)
+
+#print(lat16)
+#print(lon16)
+print(lat16, lon16, sep=",") #Prints a coordinate pair, sep adds the comma
+
+
+R = 6378.1 #Radius of the Earth
+brng17 = 0.0820305 #Bearing is 4.7 degrees converted to radians.
+d17 = .2092 #Distance in km
+
+
+lat16 = math.radians(lat16) #Current lat point converted to radians
+lon16 = math.radians(lon16) #Current long point converted to radians
+
+lat17 = math.asin( math.sin(lat16)*math.cos(d17/R) +
+     math.cos(lat16)*math.sin(d17/R)*math.cos(brng17))
+
+lon17 = lon16 + math.atan2(math.sin(brng17)*math.sin(d17/R)*math.cos(lat16),
+             math.cos(d17/R)-math.sin(lat16)*math.sin(lat16))
+
+lat17 = math.degrees(lat17)
+lon17 = math.degrees(lon17)
+
+#print(lat17)
+#print(lon17)
+print(lat17, lon17, sep=",") #Prints a coordinate pair, sep adds the comma
