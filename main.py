@@ -373,3 +373,20 @@ lon17 = math.degrees(lon17)
 #print(lat17)
 #print(lon17)
 print(lat17, lon17, sep=",") #Prints a coordinate pair, sep adds the comma
+
+#EVERYTHING BELOW THIS LINE IS ME TRYING TO FIGURE STUFF OUT
+
+#This is trying to have it spit out a complete ffn.wpl write console script
+
+
+#coordinates1 = {
+    #math.degrees(lat15), math.degrees(lon15),
+   # math.degrees(lat16), math.degrees(lon16),
+   # lat17, lon17
+               #} #I don't know why this one doesn't work. It looks like it groups all lons and lats together, instead of keeping them as pairs
+
+coordinates2 = math.degrees(lat1),",", math.degrees(lon1),",", math.degrees(lat2),",", math.degrees(lon2),",", math.degrees(lat3),",", math.degrees(lon3),",", math.degrees(lat4),",", math.degrees(lon4),",", math.degrees(lat5),",", math.degrees(lon5),",", math.degrees(lat6),",", math.degrees(lon6),",", math.degrees(lat7),",", math.degrees(lon7),",", math.degrees(lat8),",", math.degrees(lon8),",", math.degrees(lat9),",", math.degrees(lon9),",", math.degrees(lat10),",", math.degrees(lon10),",", math.degrees(lat11),",", math.degrees(lon11),",", math.degrees(lat12),",", math.degrees(lon12),",", math.degrees(lat13),",", math.degrees(lon13),",", math.degrees(lat14),",", math.degrees(lon14),",", math.degrees(lat15),",", math.degrees(lon15),",", math.degrees(lat16),",", math.degrees(lon16),",", lat17,",", lon17
+
+#print(coordinates2)
+
+print("%ffn.wpl(false,[",*coordinates2,"])", sep="") #the *removes list formating (like brackets or parentheses), sep removes print's spacing, and I had to add the commas into the list
